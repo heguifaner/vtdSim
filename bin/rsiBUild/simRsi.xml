@@ -1,0 +1,80 @@
+<MessageFrame>
+    <rsiFrame>
+        <msgCnt>1</msgCnt>
+        <!-- 可选 moy 一年开始的分组数 (0..527040)-->
+        <moy>10</moy>
+        <!-- id 八字节 -->
+        <id>30 30 30 30 30 30 30 31</id>
+        <!-- 位置信息  -->
+        <refPos>
+            <!-- 经度 (-900000000..900000001)  -->
+            <lat>399062000</lat>
+            <!-- 纬度 (-1799999999..1800000001)  -->
+            <long>1163897000</long>
+            <!-- 可选 高程 (-4096..61439)  -->
+            <elevation>222</elevation>
+        </refPos>
+        <!-- 可选 rtes rte列表 (1..8)  -->
+        <rtes>
+            <RTEData>
+                <!-- rteId 本地rteID号 (0..255)  -->
+                <rteId>0</rteId>
+                <!-- eventType 本地rte事件类型 (0..65535) China GB/T 29100-2012 -->
+                <eventType>501</eventType>
+                <!-- eventSource 本地rte事件源  unknown police government meteorological internet detection -->
+                <eventSource><detection/></eventSource>
+                <!-- 可选 本地rte事件坐标 -->
+                <eventPos>
+                    <!-- 横纵坐标参考值 -->
+                    <offsetLL>
+                        <position-LatLon>
+                            <lon>1164005417</lon>
+                            <lat>399090898</lat>
+                        </position-LatLon>
+                    </offsetLL>
+                    <!-- 可选 高程参考值 -->
+                    <offsetV>
+                        <elevation>0</elevation>
+                    </offsetV>
+                </eventPos>
+                <!-- 可选 事件有效半径 (0..65535) 0.1米 -->
+                <eventRadius>10</eventRadius>
+                 <!-- 可选 优先级 一字节 高3个bit位表示-->
+                <priority>33</priority>
+                <!-- 可选 referencePaths 事件路径 （1..8）-->
+                <referencePaths>
+                    <ReferencePath>
+                        <activePath>
+                            <!--   激活路径坐标列表 （2..32）-->
+                            <PositionOffsetLLV>
+                                <offsetLL>
+                                    <position-LatLon>
+                                        <lon>1164005412</lon>
+                                        <lat>399062069</lat>
+                                    </position-LatLon>
+                                </offsetLL>
+                                <offsetV>
+                                    <elevation>0</elevation>
+                                </offsetV>
+                            </PositionOffsetLLV>
+                            <PositionOffsetLLV>
+                                <offsetLL>
+                                    <position-LatLon>
+                                        <lon>1164005416</lon>
+                                        <lat>399089325</lat>
+                                    </position-LatLon>
+                                </offsetLL>
+                                <offsetV>
+                                    <elevation>0</elevation>
+                                </offsetV>
+                            </PositionOffsetLLV>
+                        </activePath>
+                        <!--  事件有效径 (0..65535) 0.1米 -->
+                        <pathRadius>10</pathRadius>
+                    </ReferencePath>
+                </referencePaths>
+                <!-- 可选 链接参考 (SIZE(1..16))-->
+            </RTEData>
+        </rtes>
+    </rsiFrame>
+</MessageFrame>

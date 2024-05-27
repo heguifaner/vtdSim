@@ -1,0 +1,8 @@
+I[VIPC ] [2024-05-17 16:38:35.51946 1090914] /home/ubuntu/code/v2xstack/src/ipc_config/ipc_config.c:v2xipc_CfgInit:710:configDir = /home/ubuntu/code/v2xstack/bin/rsiBUild!
+V[MAIN ] [2024-05-17 16:38:35.51951 1090914] /home/ubuntu/code/v2xstack/src/tools/sim_module_sendrcv/sim_module_sendrecv.c:main:277:g_messageStr=rsi:temp_gbrsi.uper.0:1000
+V[MAIN ] [2024-05-17 16:38:35.51952 1090914] /home/ubuntu/code/v2xstack/src/tools/sim_module_sendrcv/sim_module_sendrecv.c:main:280:p_tempStrPtr=rsi
+V[MAIN ] [2024-05-17 16:38:35.51954 1090914] /home/ubuntu/code/v2xstack/src/tools/sim_module_sendrcv/sim_module_sendrecv.c:main:284:p_tempStrPtr=temp_gbrsi.uper.0
+V[MAIN ] [2024-05-17 16:38:35.51954 1090914] /home/ubuntu/code/v2xstack/src/tools/sim_module_sendrcv/sim_module_sendrecv.c:main:288:p_tempStrPtr=1000
+T[VIPC ] [2024-05-17 16:38:35.51955 1090914] /home/ubuntu/code/v2xstack/src/ipc_config/ipc_config.c:v2xipc_GetIpcConfValue:716:v2xipc_GetIpcConfValue start
+W[UDEF ] [2024-05-17 16:38:35.51961 1090914] Undefined Tag Name=[VCFG]info[/home/ubuntu/code/v2xstack/src/common/v2xconfig/v2xcfg.c:v2xcfg_InitContext:49:config load file /home/ubuntu/code/v2xstack/bin/rsiBUild/conf/v2xipc_port.cfg error!]
+E[VIPC ] [2024-05-17 16:38:35.51963 1090914] /home/ubuntu/code/v2xstack/src/ipc_config/ipc_config.c:v2xipc_GetIpcConfValue:730:v2xcfg_InitContext error /home/ubuntu/code/v2xstack/bin/rsiBUild/conf/v2xipc_port.cfg
